@@ -14,7 +14,10 @@ const Cart = (props) => {
         />
     });
     return (
-        <ul className="cartList">{cartProducts}</ul>  //return new array of CartProducts
+        <div className="cartList">
+            <h1 className="cartTitle">Cart</h1>
+            <ul>{cartProducts}</ul> 
+        </div>
     )
 }
 

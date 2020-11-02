@@ -83,7 +83,10 @@ class App extends Component{
       <div>
         <Header priceTotal={this.state.priceTotal} productTotal={this.state.productTotal}/>
         <main className='mainContent'>
-          <ProductList addToCart={this.addToCart}/>
+        <div>
+            <h1 className="productTitle">Products</h1>
+            <ProductList addToCart={this.addToCart}/>
+        </div>
           <Cart className="cart" cart={this.state.cart} removeFromCart={this.removeFromCart} editQuantity={this.editQuantity} editSize={this.editSize} cartToggle={this.state.cartToggle}/>
         </main>
       </div> 

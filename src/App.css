@@ -25,9 +25,18 @@ header img{
     cursor: pointer;
 }
 
+.cartList ul{
+    list-style-type: none;
+}
+
+.cartTitle{
+    text-align: center ;
+    border-bottom: 1px solid black;
+}
+
 .cartList{
     list-style-type: none;
-    width: 300px;
+    width:330px;
     margin-block-start: 0;
     background-color: rgb(224, 221, 221);
     margin-right: 2px;
@@ -36,6 +45,7 @@ header img{
 .products{
     list-style-type: none;
     margin-block-start: 0;
+    width: 200px;
 
 }
 
@@ -46,7 +56,7 @@ header img{
 }
 
 .dropDown{
-    width: 310px;
+    width: 300px;
     position: absolute;
     right: 0px;
     background-color: black;
@@ -78,4 +88,9 @@ button {
 button:hover{
     background-color: gray;
     cursor: pointer;
+}
+
+
+.productTitle{
+    border-bottom: 1px black solid;
 }

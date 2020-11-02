@@ -32,7 +32,7 @@ class CartProduct extends Component{
     render(){
         const {product} = this.props;
         return (
-          <li>
+          <li className="cartProduct">
               <h1>{product.name}</h1>
 
               {this.state.toggleEdit ? (
