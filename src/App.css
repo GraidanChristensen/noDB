@@ -22,14 +22,15 @@ header h1{
 header img{
     padding-right: 50px;
     height: 75px;
+    cursor: pointer;
 }
 
 .cartList{
     list-style-type: none;
-    width: 200px;
+    width: 300px;
     margin-block-start: 0;
     background-color: rgb(224, 221, 221);
- 
+    margin-right: 2px;
 }
 
 .products{
@@ -38,6 +39,43 @@ header img{
 
 }
 
-.cart{
-    border: black 1px;
+.cartHeader{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+}
+
+.dropDown{
+    width: 310px;
+    position: absolute;
+    right: 0px;
+    background-color: black;
+    padding: 10px;
+    padding-right: 20px;
+    border-top: 1px solid white;
+    margin-right: 2px;
+    display: none;
+}
+
+.dropDown h4{
+    color: white;
+}
+
+
+.showDropDown{
+    display: inline-block;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 3px;
+    margin-right: 10px;
+    margin-bottom: 2px;
+}
+
+button:hover{
+    background-color: gray;
+    cursor: pointer;
 }

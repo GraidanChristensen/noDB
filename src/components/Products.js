@@ -4,7 +4,7 @@ const Products = (props) => {
     return <li>
         <h1>{props.product.name}</h1>
         <h4>${props.product.price}</h4>
-        <button onClick={() => props.addToCart(props.product.id)}>Add To Cart</button>
+        <button className="addToCart" onClick={() => props.addToCart(props.product.id)}>Add To Cart</button>
     </li>
 };
 

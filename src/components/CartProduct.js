@@ -59,7 +59,7 @@ class CartProduct extends Component{
                 </div> 
                 : null}
 
-              <h4>Size: {product.size}</h4>
+              {/* <h4>Size: {product.size}</h4> */}
               <h4>{product.price}</h4>
               <button onClick ={this.toggleEdit}>Edit</button>
               <button onClick={() => this.props.removeFromCart(this.props.index)}>Remove</button>

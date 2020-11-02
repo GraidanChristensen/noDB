@@ -2,14 +2,14 @@
     {
         "id": 0,
         "name": "shirt",
-        "price": "20.49"
+        "price": "20.00"
 
     },
 
     {
         "id": 1,
         "name": "pants",
-        "price": "30.99"
+        "price": "30.50"
     },
 
     {
